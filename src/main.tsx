@@ -1,9 +1,6 @@
 import "./index.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { Button } from "./components/ui/button";
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <h1>Hello</h1>
-  </StrictMode>
-);
+createRoot(document.getElementById("root")!).render(<StrictMode></StrictMode>);
